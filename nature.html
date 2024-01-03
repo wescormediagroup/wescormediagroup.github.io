@@ -5,7 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Nature - Your Photography Portfolio</title>
+    <style>
+        /* Add or update styles directly in the head */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px auto;
+        }
+
+        .photo {
+            flex: 0 0 calc(33.333% - 20px); /* Adjust the width and margin as needed */
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .photo p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+    <title>Nature</title>
 </head>
 
 <body class="category">
@@ -23,13 +88,33 @@
     </header>
 
     <section class="photo-gallery">
-        <img src="/images/R1-07602-0010.JPG" alt="R1-07602-0010">
-        <p>R1-07602-0010</p>
+        <article class="photo">
+            <img src="/images/R1-07602-0010.JPG" alt="Wildlife Photo 1">
+            <p>R1-07602-0010</p>
+        </article>
 
-        <img src="/images/R1-07601-0003.JPG" alt="R1-07601-0003">
-        <p>R1-07601-0003</p>
+        <article class="photo">
+            <img src="/images/R1-07601-0003.JPG" alt="Wildlife Photo 2">
+            <p>R1-07601-0003</p>
+        </article>
 
         <!-- Add more wildlife photos and descriptions as needed -->
+
+        <!-- Additional images (example) -->
+        <article class="photo">
+            <img src="/images/R1-07603-0025.JPG" alt="Wildlife Photo 3">
+            <p>R1-07603-0025</p>
+        </article>
+
+        <article class="photo">
+            <img src="/images/R1-07604-0032.JPG" alt="Wildlife Photo 4">
+            <p>R1-07604-0032</p>
+        </article>
+
+        <article class="photo">
+            <img src="/images/R1-07605-0040.JPG" alt="Wildlife Photo 5">
+            <p>R1-07605-0040</p>
+        </article>
     </section>
 </body>
 
