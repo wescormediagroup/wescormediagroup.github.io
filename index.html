@@ -5,63 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>WesCor Media Group</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Helvetica', sans-serif;
-            background: url('path/to/blurry-background-image.jpg') fixed center;
-            background-size: cover;
-            filter: blur(8px);
-        }
-
-        header {
-            padding: 1em;
-            text-align: center;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-        }
-
-        nav {
-            background-color: #333;
-            padding: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-around;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-            position: relative;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            padding: 10px;
-            transition: border-bottom 0.3s ease-in-out;
-        }
-
-        nav ul li a:hover {
-            border-bottom: 2px solid white;
-        }
-
-        section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-top: 20px;
-        }
-    </style>
+    <title>Your Photography Portfolio</title>
 </head>
 
 <body class="home">
@@ -69,27 +13,39 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">About</a></li>
-                <li><a href="equipment.html">Portfolio</a></li>
-                <li><a href="about.html"></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1>Your Photography Portfolio</h1>
+        <div class="hero">
+            <h1>Your Photography Portfolio</h1>
+            <p>Discover the beauty through my lens</p>
+        </div>
     </header>
 
-    <section>
-        <h2>About</h2>
-        <p>A project</p>
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Welcome to my world of photography. I am passionate about capturing moments and telling stories through my lens.</p>
+    </section>
 
+    <section class="gallery">
         <h2>Gallery</h2>
         <!-- Add your photography images with descriptions -->
-        <img src="path/to/photo1.jpg" alt="Photo 1">
-        <p>Description of Photo 1.</p>
-
-        <img src="path/to/photo2.jpg" alt="Photo 2">
-        <p>Description of Photo 2.</p>
-
+        <div class="photo">
+            <img src="path/to/photo1.jpg" alt="Photo 1">
+            <p>Description of Photo 1.</p>
+        </div>
+        <div class="photo">
+            <img src="path/to/photo2.jpg" alt="Photo 2">
+            <p>Description of Photo 2.</p>
+        </div>
         <!-- Add more images as needed -->
+    </section>
+    
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Let's connect! Feel free to reach out to me via email or through social media.</p>
     </section>
 </body>
 
