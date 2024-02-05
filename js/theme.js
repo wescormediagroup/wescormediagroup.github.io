@@ -23,3 +23,17 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+const expandImages = document.querySelectorAll('.expand-image');
+const expandedImage = document.querySelector('.expanded-image');
+const expandedImageImg = expandedImage.querySelector('img');
+
+expandImages.forEach(expandImage => {
+  expandImage.addEventListener('click', () => {
+    expandedImageImg.src = expandImage.dataset.src;
+    expandedImage.style.visibility = 'visible';
+  });
+});
+
+expandedImage.addEventListener('click', () => {
+  expandedImage.style.visibility = 'hidden';
+});
