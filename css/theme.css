@@ -432,7 +432,7 @@ section {
 	width:auto;
 	border:2px solid;
 	padding:10px 20px;
-	display:inline-block;
+	display:inline-block;Profile
 }
 #contactform input#submit:hover {
 	background-color:#333;
@@ -447,25 +447,27 @@ section {
 }
 
 .dropdown {
-    position: relative;
-}
+	position: relative;
+	display: inline-block; 
+  }
+  
+  .dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	display: none;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown:hover .dropdown-menu {
+	display: block;
+  }
+  
 
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    display: none;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown-menu li {
-    padding: 5px 10px;
-}
+  .dropdown-toggle {
+	text-decoration: none;
+  }
 
 .dropdown-menu li:hover {
     background-color: #f2f2f2;
