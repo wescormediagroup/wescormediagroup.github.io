@@ -236,7 +236,7 @@ a:hover,a:focus {
 	-moz-transition:all .3s ease-in-out;
 	transition:all .3s ease-in-out;
 }
-.btn-default {.navbar-custom a
+.btn-default .navbar-custom a {
 	border:1px solid #42dca3;
 	color:#42dca3;
 	background-color:transparent;
