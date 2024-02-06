@@ -147,9 +147,7 @@ a:hover,a:focus {
 		border-top:2px solid #fff;
 		border-bottom:2px solid #fff;
 		display:inline-block;
-		padding:10px 0;
-	}
-	.intro .intro-body .intro-text {
+		padding:10px 0;.navbar-custom a
 		font-size:20px;
 			font-weight:300;
 			letter-spacing:3px;
@@ -238,7 +236,7 @@ a:hover,a:focus {
 	-moz-transition:all .3s ease-in-out;
 	transition:all .3s ease-in-out;
 }
-.btn-default {
+.btn-default {.navbar-custom a
 	border:1px solid #42dca3;
 	color:#42dca3;
 	background-color:transparent;
@@ -432,8 +430,9 @@ section {
 	width:auto;
 	border:2px solid;
 	padding:10px 20px;
-	display:inline-block;Profile
+	display:inline-block Profile;
 }
+
 #contactform input#submit:hover {
 	background-color:#333;
 	color:#fff;
